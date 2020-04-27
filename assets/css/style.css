@@ -203,8 +203,7 @@ p {
   .navigation-bar.sticky {
     position: fixed;
     background-color: #fff;
-
-    box-shadow: 0px 5px 21px 0px rgba(254, 119, 101, 0.2);
+    box-shadow: 0px 5px 21px 0px #a5d8ff;
     z-index: 99;
     padding: 15px 0; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -344,18 +343,21 @@ p {
     padding-bottom: 80px; } }
 
 .about-image {
-  position: relative; }
+  position: relative;
+ }
+ 
   .about-image::before {
     position: absolute;
     content: '';
-    background-image: url(../images/about/dots.jpg);
+    background-image: url(../images/about/about.jpg);
     background-position: center center;
     background-size: 100%;
-    width: 375px;
-    height: 350px;
+    background-repeat: no-repeat;
+    width: 675px;
+    height: 650px;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    transform: translate(-50%, -10%);
     z-index: -1; }
     @media (max-width: 767px) {
       .about-image::before {
@@ -451,6 +453,90 @@ p {
     .about-content .about-title {
       font-size: 26px; } }
 
+
+
+
+
+
+      /*========================
+       FAQ Section  
+       ======================*/
+       
+.accordion a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion a:hover::after {
+  border: 1px solid #03b5d2;
+}
+
+.accordion a.active {
+  color: #03b5d2;
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion a::after {
+  font-family: 'Ionicons';
+  content: '\f218';
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 1rem;
+  color: #7288a2;
+  padding: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #7288a2;
+  text-align: center;
+}
+
+.accordion a.active::after {
+  font-family: 'Ionicons';
+  content: '\f209';
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  clear: both;
+  transition: all 0.2s ease 0.15s;
+}
+
+.accordion .content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.accordion .content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+  transition: all 0.35s ease 0.15s;
+}
+
+/* ========== FAQ ends =====*/
+      
+
 /*===========================
       4.SERVICES css 
 ===========================*/
@@ -485,6 +571,8 @@ p {
     .single-services:hover .services-content .services-title,
     .single-services:hover .services-content p {
       color: #fff; }
+    
+
 
 /*===========================
       5.PROJECT css 
@@ -658,7 +746,8 @@ p {
   z-index: 9; }
 
 .testimonial-active {
-  background-color: #1971c2;
+  background-color: #1864ab;
+  box-shadow: 1px 1px 7px #868e96;
   padding: 60px 30px; }
   @media (max-width: 767px) {
     .testimonial-active {
