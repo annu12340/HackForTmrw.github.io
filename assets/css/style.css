@@ -206,7 +206,7 @@ video {
 }
 
 
-h1 {
+.bg-video-wrap h1{
   float: left;
   text-align: center;
   color: #fff;
