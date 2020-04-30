@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700|Hind:400,500,600,700|Quattrocento:400,700");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #646464;
@@ -43,13 +43,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   font-weight: 700;
   color: #121619;
   margin: 0px;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
@@ -95,7 +96,7 @@ p {
   transition: all 0.4s ease-out 0s;
   background-color: #1971c2;
   box-shadow: 0px 5px 16px 0px #d0ebff;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   text-transform: uppercase;
 }
 
@@ -160,24 +161,21 @@ p {
   }
 }
 
-
 /* Preloader Animations Toadd  */
 .preloader {
   width: 100%;
   height: 100%;
-  background: url('https://i.pinimg.com/originals/b5/3a/b6/b53ab608718000227d5d9a752cbd5d5c.gif') initial no-repeat #FFF;
+  background: url("https://i.pinimg.com/originals/b5/3a/b6/b53ab608718000227d5d9a752cbd5d5c.gif")
+    initial no-repeat #fff;
   z-index: 99999;
   position: fixed;
 }
-
-
 
 /*===========================
    1. Main page
 ===========================*/
 .FirstPage {
   height: 700px;
- 
 }
 
 .bg-video-wrap {
@@ -185,7 +183,7 @@ p {
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  background: url('../images/Frontpage/bk1.jpg') no-repeat center center/cover;
+  background: url("../images/Frontpage/bk1.jpg") no-repeat center center/cover;
   z-index: 10;
 }
 video {
@@ -199,16 +197,15 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url('../images/Frontpage/bk1.jpg') ;
+  /* background-image: url('../images/Frontpage/bk1.jpg') ; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  opacity:0.3;
+  opacity: 0.3;
   z-index: 20;
 }
 
-
-.bg-video-wrap h1{
+.bg-video-wrap h1 {
   float: left;
   text-align: center;
   color: #fff;
@@ -224,26 +221,21 @@ video {
   height: 50px;
   font-size: 90px;
   text-shadow: 2px 2px 6px #343a40;
-  opacity:1 !important;
-  
+  opacity: 1 !important;
 }
 
-
-.typewritingeffect{
- 
+.typewritingeffect {
   text-align: left;
   position: absolute;
   bottom: 25%;
   right: 25%;
   z-index: 20 !important;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: 50px;
   font-size: 10px;
-  opacity:1 !important;
-  
+  opacity: 1 !important;
 }
-
 
 .TypingEffect p {
   font-size: 2rem;
@@ -268,11 +260,21 @@ video {
   animation: none;
 }
 @keyframes blink {
-  0%  { background-color: #ccc; }
-  49% { background-color: #ccc; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #ccc; }
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
 }
 
 /*===========================
@@ -451,7 +453,7 @@ video {
 
 .navbar .navbar-nav .nav-item a {
   color: #646464;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -464,7 +466,8 @@ video {
   }
 }
 
-.navbar .navbar-nav .nav-item.active a, .navbar .navbar-nav .nav-item:hover a {
+.navbar .navbar-nav .nav-item.active a,
+.navbar .navbar-nav .nav-item:hover a {
   color: #1971c2;
 }
 
@@ -544,7 +547,7 @@ video {
   position: relative;
   font-size: 15px;
   font-weight: 600;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   color: #1971c2;
   text-transform: uppercase;
   margin-left: 70px;
@@ -552,7 +555,7 @@ video {
 
 .header-banner .banner-content .banner-contact::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 60px;
   height: 2px;
   background-color: #1971c2;
@@ -577,8 +580,8 @@ video {
 
 .about-image::before {
   position: absolute;
-  content: '';
-  background-image: url('https://assets.materialup.com/uploads/db17c52b-0ee0-4491-be76-2d1586a75bb1/preview.gif');
+  content: "";
+  background-image: url("https://assets.materialup.com/uploads/db17c52b-0ee0-4491-be76-2d1586a75bb1/preview.gif");
   background-position: center center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -746,17 +749,14 @@ video {
   }
 }
 
-.about-content p{
-  font-family: 'Open Sans', sans-serif;
+.about-content p {
+  font-family: "Open Sans", sans-serif;
 }
 
-
-
-
-      /*========================
+/*========================
        FAQ Section  
        ======================*/
-       
+
 .accordion a {
   position: relative;
   display: flex;
@@ -785,8 +785,8 @@ video {
 }
 
 .accordion a::after {
-  font-family: 'Ionicons';
-  content: '\f218';
+  font-family: "Ionicons";
+  content: "\f218";
   position: absolute;
   float: right;
   right: 1rem;
@@ -801,8 +801,8 @@ video {
 }
 
 .accordion a.active::after {
-  font-family: 'Ionicons';
-  content: '\f209';
+  font-family: "Ionicons";
+  content: "\f209";
   color: #03b5d2;
   border: 1px solid #03b5d2;
 }
@@ -830,7 +830,6 @@ video {
 }
 
 /* ========== FAQ ends =====*/
-      
 
 /*===========================
       4.SERVICES css 
@@ -869,7 +868,7 @@ video {
 .single-services .services-content .services-title {
   font-size: 22px;
   font-weight: 600;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   transition: all 0.4s ease-out 0s;
 }
 
@@ -882,11 +881,9 @@ video {
 }
 
 .single-services:hover .services-content .services-title,
-    .single-services:hover .services-content p {
+.single-services:hover .services-content p {
   color: #fff;
 }
-    
-
 
 /*===========================
       5.PROJECT css 
@@ -908,7 +905,7 @@ video {
 
 .single-project .project-image::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background: white;
@@ -931,7 +928,7 @@ video {
 .single-project .project-content .project-title {
   font-size: 22px;
   font-weight: 600;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   position: relative;
   color: #fff;
   margin-left: 60px;
@@ -939,7 +936,7 @@ video {
 
 .single-project .project-content .project-title::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 50px;
   height: 1px;
   background-color: #fff;
@@ -1014,7 +1011,7 @@ video {
   font-size: 18px;
   font-weight: 600;
   color: #121619;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
   transition: all 0.4s ease-out 0s;
 }
 
@@ -1173,18 +1170,18 @@ video {
 .single-testimonial .testimonial-content p {
   font-size: 18px;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .single-testimonial .testimonial-content .testimonial-name {
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 18px;
   color: #fff;
   font-weight: 600;
 }
 
 .single-testimonial .testimonial-content .sub-title {
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
   font-size: 14px;
   color: #fff;
 }
@@ -1214,8 +1211,6 @@ video {
   background-color: #fff;
   width: 25px;
 }
-
-
 
 /*===========================
        10.FOOTER css 
@@ -1291,7 +1286,7 @@ video {
 
 .f-title .title {
   font-size: 22px;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 600;
 }
 
@@ -1302,7 +1297,7 @@ video {
 .footer-link ul li a {
   font-size: 16px;
   color: #646464;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
   transition: all 0.4s ease-out 0s;
 }
 
