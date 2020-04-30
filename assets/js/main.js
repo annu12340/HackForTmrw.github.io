@@ -158,15 +158,12 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
             scrollTop: 0,
         }, 2500);
     });
-    
-    
-    
-    
-    
-    
-    
-    
+       
 });
+
+
+
+
 
 
 // Typing animation
