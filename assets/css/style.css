@@ -86,7 +86,7 @@ p {
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border: 1px solid #1971c2;
+  border: 1px solid #330983;
   padding: 0 30px;
   font-size: 16px;
   line-height: 48px;
@@ -94,7 +94,7 @@ p {
   cursor: pointer;
   z-index: 5;
   transition: all 0.4s ease-out 0s;
-  background-color: #1971c2;
+  background-color: #330983;
   box-shadow: 0px 5px 16px 0px #d0ebff;
   font-family: "Barlow", sans-serif;
   text-transform: uppercase;
@@ -106,26 +106,26 @@ p {
 
 .main-btn:hover {
   background-color: #fff;
-  color: #1971c2;
-  border-color: #1971c2;
+  color: #330983;
+  border-color: #330983;
 }
 
 .main-btn.main-btn-2 {
   background-color: #fff;
-  color: #1971c2;
-  border-color: #1971c2;
+  color: #330983;
+  border-color: #330983;
 }
 
 .main-btn.main-btn-2:hover {
-  background-color: #1971c2;
-  border-color: #1971c2;
+  background-color: #330983;
+  border-color: #330983;
   color: #fff;
 }
 
 /*===== All Section Title Style =====*/
 .section-title .sub-title {
   font-size: 18px;
-  color: #1971c2;
+  color: #330983;
   text-transform: uppercase;
 }
 
@@ -178,31 +178,10 @@ p {
   height: 700px;
 }
 
-.bg-video-wrap {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 100vh;
-  background: url("../images/Frontpage/bk1.jpg") no-repeat center center/cover;
-  z-index: 10;
-}
 video {
   min-width: 100%;
   min-height: 100vh;
   z-index: 1;
-}
-.overlay {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  /* background-image: url('../images/Frontpage/bk1.jpg') ; */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  opacity: 0.3;
-  z-index: 20;
 }
 
 .bg-video-wrap h1 {
@@ -219,7 +198,7 @@ video {
   max-width: 90%;
   width: 100%;
   height: 50px;
-  font-size: 90px;
+  font-size: 100px;
   text-shadow: 2px 2px 6px #343a40;
   opacity: 1 !important;
 }
@@ -238,7 +217,7 @@ video {
 }
 
 .TypingEffect p {
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding: 0.5rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
@@ -367,7 +346,7 @@ video {
 .navigation-bar.sticky {
   position: fixed;
   background-color: #fff;
-  box-shadow: 0px 5px 21px 0px #a5d8ff;
+  box-shadow: 0px 5px 21px 0px #b197fc;
   z-index: 99;
   padding: 15px 0;
 }
@@ -468,7 +447,7 @@ video {
 
 .navbar .navbar-nav .nav-item.active a,
 .navbar .navbar-nav .nav-item:hover a {
-  color: #1971c2;
+  color: #330983;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -519,7 +498,7 @@ video {
 
 .header-banner .banner-content .sub-title {
   font-size: 24px;
-  color: #1971c2;
+  color: #330983;
   text-transform: uppercase;
 }
 
@@ -534,7 +513,7 @@ video {
 }
 
 .header-banner .banner-content .banner-title span {
-  color: #1971c2;
+  color: #330983;
 }
 
 @media (max-width: 767px) {
@@ -548,7 +527,7 @@ video {
   font-size: 15px;
   font-weight: 600;
   font-family: "Barlow", sans-serif;
-  color: #1971c2;
+  color: #330983;
   text-transform: uppercase;
   margin-left: 70px;
 }
@@ -558,7 +537,7 @@ video {
   content: "";
   width: 60px;
   height: 2px;
-  background-color: #1971c2;
+  background-color: #330983;
   left: -70px;
   top: 50%;
   transform: translateY(-50%);
@@ -587,9 +566,9 @@ video {
   background-repeat: no-repeat;
   width: 675px;
   height: 650px;
-  left: 50%;
+  left: 40%;
   top: 20%;
-  transform: translate(-50%, -10%);
+  transform: translate(-51%, -10%);
   z-index: -1;
 }
 
@@ -705,7 +684,7 @@ video {
 }
 
 .about-image .about-btn .main-btn:hover {
-  border-color: #1971c2;
+  border-color: #330983;
 }
 
 @media (max-width: 767px) {
@@ -728,7 +707,7 @@ video {
 
 .about-content .about-welcome {
   font-size: 24px;
-  color: #1971c2;
+  color: #330983;
   text-transform: uppercase;
 }
 
@@ -772,16 +751,16 @@ video {
 .accordion a:hover,
 .accordion a:hover::after {
   cursor: pointer;
-  color: #03b5d2;
+  color: #5f3dc4;
 }
 
 .accordion a:hover::after {
-  border: 1px solid #03b5d2;
+  border: 1px solid #5f3dc4;
 }
 
 .accordion a.active {
-  color: #03b5d2;
-  border-bottom: 1px solid #03b5d2;
+  color: #5f3dc4;
+  border-bottom: 1px solid #5f3dc4;
 }
 
 .accordion a::after {
@@ -803,8 +782,8 @@ video {
 .accordion a.active::after {
   font-family: "Ionicons";
   content: "\f209";
-  color: #03b5d2;
-  border: 1px solid #03b5d2;
+  color: #5f3dc4;
+  border: 1px solid #5f3dc4;
 }
 
 .accordion .content {
@@ -861,7 +840,7 @@ video {
 
 .single-services .services-icon i {
   font-size: 52px;
-  color: #1971c2;
+  color: #330983;
   transition: all 0.4s ease-out 0s;
 }
 
@@ -873,7 +852,7 @@ video {
 }
 
 .single-services:hover {
-  background-color: #1971c2;
+  background-color: #330983;
 }
 
 .single-services:hover .services-icon i {
@@ -968,7 +947,7 @@ video {
   height: 15px;
   border-radius: 50px;
   border: 0;
-  background-color: #228be6;
+  background-color: #6741d9;
   transition: all 0.4s ease-out 0s;
   font-size: 0;
   cursor: pointer;
@@ -976,7 +955,7 @@ video {
 
 .project-active .slick-dots li.slick-active button {
   width: 35px;
-  background-color: #1971c2;
+  background-color: #330983;
 }
 
 /*===========================
@@ -1016,7 +995,7 @@ video {
 }
 
 .single-team .team-content .team-name a:hover {
-  color: #1971c2;
+  color: #330983;
 }
 
 .single-team .team-content .sub-title {
@@ -1049,7 +1028,7 @@ video {
 }
 
 .single-team .team-content .social li a:hover {
-  background-color: #1971c2;
+  background-color: #330983;
   color: #fff;
 }
 
@@ -1128,7 +1107,7 @@ video {
 }
 
 .testimonial-active {
-  background-color: #1864ab;
+  background-color: #3b32a1;
   box-shadow: 1px 1px 7px #868e96;
   padding: 60px 30px;
 }
@@ -1157,13 +1136,13 @@ video {
 
 .single-testimonial .testimonial-image .quota i {
   font-size: 18px;
-  color: #1971c2;
+  color: #330983;
   width: 30px;
   height: 30px;
   line-height: 28px;
   text-align: center;
   background-color: #fff;
-  border: 2px solid #1971c2;
+  border: 2px solid #330983;
   border-radius: 50%;
 }
 
@@ -1280,7 +1259,7 @@ video {
 }
 
 .footer-logo .footer-social li a:hover {
-  background-color: #1971c2;
+  background-color: #330983;
   color: #fff;
 }
 
@@ -1302,7 +1281,7 @@ video {
 }
 
 .footer-link ul li a:hover {
-  color: #1971c2;
+  color: #330983;
 }
 
 .copyright-area {
@@ -1324,10 +1303,10 @@ video {
   box-shadow: 0px 0px 30px 0px rgba(156, 156, 156, 0.25);
   transition: all 0.4s ease-out 0s;
   color: #fff;
-  background-color: #1971c2;
+  background-color: #330983;
 }
 
 .back-to-top:hover {
-  color: #1971c2;
+  color: #330983;
   background-color: #fff;
 }
