@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700|Hind:400,500,600,700|Quattrocento:400,700");
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
   font-family: 'Hind', sans-serif;
   font-weight: normal;
@@ -176,10 +177,8 @@ p {
 ===========================*/
 .FirstPage {
   height: 700px;
-  background: black !important;
+ 
 }
-
-
 
 .bg-video-wrap {
   position: relative;
@@ -204,7 +203,7 @@ video {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  opacity:0.4;
+  opacity:0.3;
   z-index: 20;
 }
 
@@ -214,9 +213,9 @@ video {
   text-align: center;
   color: #fff;
   position: absolute;
-  top: 30%;
+  top: 25%;
   bottom: 0;
-  left: 0;
+  left: 5%;
   right: 0;
   padding-right: 50%;
   z-index: 20 !important;
@@ -229,6 +228,52 @@ video {
   
 }
 
+
+.typewritingeffect{
+ 
+  text-align: left;
+  position: absolute;
+  bottom: 25%;
+  right: 25%;
+  z-index: 20 !important;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  height: 50px;
+  font-size: 10px;
+  opacity:1 !important;
+  
+}
+
+
+.TypingEffect p {
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.TypingEffect p span.typed-text {
+  font-weight: normal;
+  color: #e03131;
+}
+.TypingEffect p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.TypingEffect p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
 
 /*===========================
     2.HEADER css 
@@ -701,7 +746,9 @@ video {
   }
 }
 
-
+.about-content p{
+  font-family: 'Open Sans', sans-serif;
+}
 
 
 
@@ -1126,7 +1173,7 @@ video {
 .single-testimonial .testimonial-content p {
   font-size: 18px;
   color: #fff;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .single-testimonial .testimonial-content .testimonial-name {
