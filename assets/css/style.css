@@ -8,6 +8,12 @@ body {
   color: #646464;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -165,7 +171,7 @@ p {
 .preloader {
   width: 100%;
   height: 100%;
-  background: url("https://i.pinimg.com/originals/b5/3a/b6/b53ab608718000227d5d9a752cbd5d5c.gif");
+  background: url("https://media.giphy.com/media/feN0YJbVs0fwA/giphy.gif");
   z-index: 99999;
   position: fixed;
 }
