@@ -1,9 +1,30 @@
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
+
 $(window).load(function () {
   $(".preloader").fadeOut("slow");
 });
 
 $(function () {
   "use strict";
+
+  //=======Front animations
+  const spans = document.querySelectorAll(".word span");
+
+  spans.forEach((span, idx) => {
+    span.addEventListener("click", (e) => {
+      e.target.classList.add("active");
+    });
+    span.addEventListener("animationend", (e) => {
+      e.target.classList.remove("active");
+    });
+
+    // Initial animation
+    setTimeout(() => {
+      span.classList.add("active");
+    }, 750 * (idx + 1));
+  });
 
   //===== Prealoder
 
