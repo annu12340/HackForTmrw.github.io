@@ -208,6 +208,10 @@ video {
   opacity: 1 !important;
 }
 
+.tomo {
+  font-family: sans-serif;
+}
+
 .typewritingeffect {
   text-align: left;
   position: absolute;
