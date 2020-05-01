@@ -1,6 +1,6 @@
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-};
+$(document).ready(function () {
+  $("html,body").scrollTop(55);
+});
 
 $(window).load(function () {
   $(".preloader").fadeOut("slow");
