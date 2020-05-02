@@ -1,6 +1,10 @@
 /* @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap"); */
 @import "compass";
 @import url("https://fonts.googleapis.com/css?family=Anton|Roboto");
+/* @font-face {
+  font-family: "HKGrotesk";
+  src: url("assests/fonts/._HKGrotesk-Bold.otf") format("otf");
+} */
 
 .word {
   font-family: "Anton", sans-serif;
@@ -142,16 +146,18 @@
 
 .word span:nth-child(8).active {
   animation: rotate 1s ease-in-out;
-  transform-origin: bottom center;
+  transform-origin: bottom right;
 }
 
 @keyframes rotate {
   20%,
   80% {
-    transform: rotateY(180deg);
+    transform: rotateY(45deg);
   }
 
   100% {
-    transform: rotateY(360deg);
+    transform: rotateY(0deg);
   }
 }
+
+/* TOMORROW */
