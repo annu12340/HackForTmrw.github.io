@@ -1205,6 +1205,7 @@ video {
 ===========================*/
 .footer-widget {
   background-color: #121619;
+  font-size:20px;
 }
 
 @media (max-width: 767px) {
@@ -1224,7 +1225,7 @@ video {
 }
 
 .footer-logo .footer-info li {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .footer-logo .footer-info li .single-info {
@@ -1238,7 +1239,7 @@ video {
 }
 
 .footer-logo .footer-info li .single-info .info-icon i {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .footer-logo .footer-info li .single-info .info-content {
