@@ -99,9 +99,9 @@ p {
   color: #fff;
   cursor: pointer;
   z-index: 5;
-  transition: all 0.4s ease-out 0s;
+  transition: all 0.7s ease-out 0s;
   background-color: #330983;
-  box-shadow: 0px 5px 16px 0px #d0ebff;
+  box-shadow: 0px 5px 16px 0px #b197fc;
   font-family: "Barlow", sans-serif;
   text-transform: uppercase;
 }
@@ -114,7 +114,11 @@ p {
   background-color: #fff;
   color: #330983;
   border-color: #27267c;
+  border-radius: 30px;
+  font-weight: bolder;
+ 
 }
+
 
 .main-btn.main-btn-2 {
   background-color: #fff;
@@ -551,6 +555,8 @@ video {
   top: 50%;
   transform: translateY(-50%);
 }
+
+
 
 /*===========================
     3.ABOUT css 
