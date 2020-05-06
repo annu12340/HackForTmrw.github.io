@@ -12,7 +12,6 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
-
 }
 
 * {
@@ -117,9 +116,7 @@ p {
   border-color: #27267c;
   border-radius: 30px;
   font-weight: bolder;
- 
 }
-
 
 .main-btn.main-btn-2 {
   background-color: #fff;
@@ -556,8 +553,6 @@ video {
   top: 50%;
   transform: translateY(-50%);
 }
-
-
 
 /*===========================
     3.ABOUT css 
@@ -1120,10 +1115,12 @@ video {
 .testimonial-bg {
   position: relative;
   z-index: 9;
+  width: 100%;
 }
 
 .testimonial-active {
-  background-color: #27267c;
+  background-color: #0a0a28;
+  opacity: 0.75;
   box-shadow: 1px 1px 7px #868e96;
   padding: 60px 30px;
 }
@@ -1160,6 +1157,12 @@ video {
   background-color: #fff;
   border: 2px solid #330983;
   border-radius: 50%;
+}
+
+.single-testimonial .testimonial-content h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Open Sans Extra Bold", sans-serif;
 }
 
 .single-testimonial .testimonial-content p {
@@ -1212,7 +1215,7 @@ video {
 ===========================*/
 .footer-widget {
   background-color: #121619;
-  font-size:25px;
+  font-size: 25px;
   padding-bottom: 5%;
 }
 
@@ -1302,7 +1305,6 @@ video {
   color: #c8c2d3;
 }
 
-
 .rounded-social-buttons {
   text-align: center;
 }
@@ -1318,7 +1320,7 @@ video {
   text-decoration: none;
   text-align: center;
   color: #fefefe;
-  filter: grayscale(1); 
+  filter: grayscale(1);
   font-size: 1.5625rem;
   font-weight: normal;
   line-height: 2em;
@@ -1328,14 +1330,17 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
-
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
   transform: rotate(360deg);
-  filter: none; 
-
+  filter: none;
 }
 
-.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+.rounded-social-buttons .fa-twitter,
+.fa-facebook-f,
+.fa-linkedin,
+.fa-youtube,
+.fa-instagram {
   font-size: 25px;
 }
 
@@ -1343,7 +1348,8 @@ video {
   background: #3b5998;
 }
 
-.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+.rounded-social-buttons .social-button.facebook:hover,
+.rounded-social-buttons .social-button.facebook:focus {
   color: #3b5998;
   background: #fefefe;
   border-color: #3b5998;
@@ -1353,7 +1359,8 @@ video {
   background: #55acee;
 }
 
-.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+.rounded-social-buttons .social-button.twitter:hover,
+.rounded-social-buttons .social-button.twitter:focus {
   color: #55acee;
   background: #fefefe;
   border-color: #55acee;
@@ -1363,7 +1370,8 @@ video {
   background: #007bb5;
 }
 
-.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+.rounded-social-buttons .social-button.linkedin:hover,
+.rounded-social-buttons .social-button.linkedin:focus {
   color: #007bb5;
   background: #fefefe;
   border-color: #007bb5;
@@ -1373,7 +1381,8 @@ video {
   background: #bb0000;
 }
 
-.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+.rounded-social-buttons .social-button.youtube:hover,
+.rounded-social-buttons .social-button.youtube:focus {
   color: #bb0000;
   background: #fefefe;
   border-color: #bb0000;
@@ -1383,7 +1392,8 @@ video {
   background: #bb0000;
 }
 
-.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+.rounded-social-buttons .social-button.instagram:hover,
+.rounded-social-buttons .social-button.instagram:focus {
   color: #125688;
   background: #fefefe;
   border-color: #125688;
