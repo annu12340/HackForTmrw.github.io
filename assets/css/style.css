@@ -133,7 +133,7 @@ p {
 /*===== All Section Title Style =====*/
 .section-title .sub-title {
   font-size: 18px;
-  color: #27267c;
+  color: #0a0a28;
   text-transform: uppercase;
 }
 
@@ -851,7 +851,7 @@ video {
 
 .single-services .services-icon i {
   font-size: 52px;
-  color: #27267c;
+  color: #0a0a28;
   transition: all 0.4s ease-out 0s;
 }
 
@@ -863,7 +863,7 @@ video {
 }
 
 .single-services:hover {
-  background-color: #27267c;
+  background-color: #0a0a28;
 }
 
 .single-services:hover .services-icon i {
@@ -876,7 +876,7 @@ video {
 }
 
 /*===========================
-      5.PROJECT css 
+      5.SPONSORS css 
 ===========================*/
 @media (max-width: 767px) {
   .project-area {

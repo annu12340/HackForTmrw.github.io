@@ -1,10 +1,6 @@
 /* @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap"); */
 @import "compass";
 @import url("https://fonts.googleapis.com/css?family=Anton|Roboto");
-/* @font-face {
-  font-family: "HKGrotesk";
-  src: url("assests/fonts/._HKGrotesk-Bold.otf") format("otf");
-} */
 
 .word {
   font-family: "Anton", sans-serif;
@@ -98,17 +94,21 @@
 }
 
 .word span:nth-child(6).active {
-  animation: toplong 1.5s linear;
+  animation: toplong 1s linear;
 }
 
 @keyframes toplong {
   10%,
+  35% {
+    transform: scale(2, 0.2) translate(0, 0);
+  }
+
   40% {
-    transform: translateY(-48vh) scaleY(1);
+    transform: translateY(-24vh) scaleY(1);
   }
 
   90% {
-    transform: translateY(-48vh) scaleY(4);
+    transform: translateY(-24vh) scaleY(3);
   }
 }
 
@@ -145,18 +145,18 @@
 }
 
 .word span:nth-child(8).active {
-  animation: rotate 1s ease-in-out;
+  animation: balance1 1s ease-in-out;
   transform-origin: bottom right;
 }
 
-@keyframes rotate {
+@keyframes balance1 {
   20%,
   80% {
-    transform: rotateY(45deg);
+    transform: rotate(45deg);
   }
 
   100% {
-    transform: rotateY(0deg);
+    transform: rotate(0deg);
   }
 }
 
