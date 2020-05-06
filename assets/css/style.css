@@ -969,7 +969,7 @@ video {
 
 .project-active .slick-dots li.slick-active button {
   width: 35px;
-  background-color: #27267c;
+  background-color: #0a0a28;
 }
 
 /*===========================
@@ -1217,7 +1217,7 @@ video {
        10.FOOTER css 
 ===========================*/
 .footer-widget {
-  background-color: #121619;
+  background-color: #0f0f20;
   font-size: 25px;
   padding-bottom: 5%;
 }
