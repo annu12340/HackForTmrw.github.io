@@ -51,7 +51,7 @@ h5,
 h6 {
   font-family: "Open Sans Bold", sans-serif;
   font-weight: 700;
-  color: #0a0a28;
+  color: #161553;
   margin: 0px;
 }
 
@@ -92,7 +92,7 @@ p {
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border: 1px solid #3770ff;
+  border: 1px solid #242372;
   padding: 0 30px;
   font-size: 16px;
   line-height: 48px;
@@ -100,7 +100,7 @@ p {
   cursor: pointer;
   z-index: 5;
   transition: all 0.7s ease-out 0s;
-  background-color: #3770ff;
+  background-color: #242372;
   box-shadow: 0px 5px 16px 0px #0a0a28;
   font-family: "Barlow", sans-serif;
   text-transform: uppercase;
@@ -358,7 +358,7 @@ video {
 .navigation-bar.sticky {
   position: fixed;
   background-color: #fff;
-  box-shadow: 0px 5px 21px 0px #7c7cda;
+  box-shadow: 0px 5px 21px 0px #9b9bdf;
   z-index: 99;
   padding: 15px 0;
 }
@@ -459,7 +459,7 @@ video {
 
 .navbar .navbar-nav .nav-item.active a,
 .navbar .navbar-nav .nav-item:hover a {
-  color: #0a0a28;
+  color: #161553;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -510,7 +510,7 @@ video {
 
 .header-banner .banner-content .sub-title {
   font-size: 24px;
-  color: #282841;
+  color: #27267c;
   text-transform: uppercase;
 }
 
