@@ -8,6 +8,7 @@ body {
   color: #646464;
 }
 
+
 html,
 body {
   max-width: 100%;
@@ -358,7 +359,7 @@ video {
 .navigation-bar.sticky {
   position: fixed;
   background-color: #fff;
-  box-shadow: 0px 5px 21px 0px #9b9bdf;
+  box-shadow: 0px 5px 21px 0px #adade7;
   z-index: 99;
   padding: 15px 0;
 }
@@ -390,7 +391,7 @@ video {
   width: 30px;
   height: 2px;
   display: block;
-  background-color: #646464;
+  background-color: #d9d7df;
   margin: 5px 0;
 }
 
